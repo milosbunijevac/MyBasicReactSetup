@@ -1,0 +1,46 @@
+{
+    "name": "reduxlearn",
+    "version": "1.0.0",
+    "description": "A way to learn redux with react",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./server/index.js --exec babel-node --watch",
+        "webpack": "webpack --watch",
+        "postinstall": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Milos Bunijevac",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.16.2",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "body-parser": "^1.18.0",
+        "eslint-config-airbnb-base": "^12.0.0",
+        "express": "^4.15.4",
+        "nodemon": "^1.12.0",
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "react-toolbox": "^2.0.0-beta.12",
+        "request": "^2.81.0",
+        "webpack": "^3.5.6"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    },
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "eslint": "^4.6.1",
+        "eslint-config-airbnb": "^15.1.0",
+        "eslint-friendly-formatter": "^3.0.0",
+        "eslint-loader": "^1.9.0",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^5.1.1",
+        "eslint-plugin-react": "^7.3.0"
+    }
+}
